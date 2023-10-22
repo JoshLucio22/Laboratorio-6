@@ -20,3 +20,18 @@ nav a:hover {
     background-color: #ddd;
     color: black;
 }
+
+/* Estilos personalizados para el carrusel */
+#carouselInd {
+    max-width: 600px; /* Ancho máximo del carrusel */
+    margin: 0 auto; /* Centra el carrusel en la página */
+}
+
+.carousel-inner {
+    max-height: 300px; /* Altura máxima de las imágenes del carrusel */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Ajusta el tamaño de la imagen para que se ajuste al contenedor */
+    max-height: 300px; /* Altura máxima de las imágenes del carrusel */
+}
